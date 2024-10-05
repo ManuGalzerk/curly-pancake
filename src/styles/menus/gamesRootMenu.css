@@ -1,0 +1,11 @@
+@import url(rootMenu.css);
+/* Library */
+._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem:first-child::before {
+    content: "";
+}
+._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem:first-child:hover::before {
+    content: "";
+}
+._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem:nth-child(4), ._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem:nth-child(6), ._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem:nth-child(8), ._2jXHP0742MyApMUVUM8IFn._2uiDecKkKjAq7nimy3uLhG.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem:nth-child(10) {
+    padding-left: 50px !important;
+}

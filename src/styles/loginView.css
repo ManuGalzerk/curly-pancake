@@ -1,0 +1,75 @@
+@import url(./modals/preload.css);
+
+* {
+    font-family: "Segoe UI Variable Text", "Segoe UI" !important;
+}
+._3nhzM2H8Opkomzs5OG5oux {
+    border-radius: 6px !important;
+    border: 1px solid #404040 !important;
+}
+.l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux > img, .l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux > svg {
+    border-radius: 6px;
+}
+.VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs96Y.DesktopUI {
+    background: #212121 !important;
+}
+.VZ6x_grhNkIYJG__jEEyp.DesktopUI {
+    background: #212121 !important;
+}
+.ZOBYq36SukEm_Fi_77g2q {
+    background: #212121 !important;
+}
+._1mhmmseSBKL7v66ts9ZWnR._2VbrfxEjC12ADGmdQMjsSF._2GR-72EQH6qpRuRNw2fI9f {
+    background: #212121 !important;
+}
+.ZOBYq36SukEm_Fi_77g2q ._2eKVn6g5Yysx9JmutQe7WV {
+    border-right: 0.5px solid #303030 !important;
+    border-top: 0.5px solid #303030 !important;
+    border-left: 0.5px solid #303030 !important;
+    border-bottom: 1px solid #9A9A9A !important;
+}
+.ZOBYq36SukEm_Fi_77g2q ._2eKVn6g5Yysx9JmutQe7WV {
+    border-radius: 6px !important;
+    background: #373737 !important;
+    height: 14px !important;
+    padding: 8px 14px 8px 14px !important;
+}
+
+button._2QgFEj17t677s3x299PNJQ:not(.TEWmsM70ZLEOxLAjDMpcv) {
+    border: 0.5px solid #3A3A3A !important;
+    border-radius: 6px;
+    background: #373737 !important;
+    height: 32px !important;
+    font-size: 14px !important;
+}
+button._2QgFEj17t677s3x299PNJQ {
+    height: 14px !important;
+    padding: 6px 14px 10px 14px !important;
+}
+.DialogCheckbox {
+    height: 20px;
+    width: 20px;
+}
+.DialogCheckbox.Active::before {
+    content: "îƒ";
+    font-family: FluentSystemIcons;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+}
+.DialogCheckbox svg {
+    display: none !important
+}
+.DialogCheckbox:not(.Active) {
+    background: #1D1D1D !important;
+    border: 0.5px solid #999999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.DialogCheckbox:not(.Active) {
+    background: #2A2A2A !important;
+}
+input._2eKVn6g5Yysx9JmutQe7WV:focus {
+    border-bottom: 1px solid var(--SystemAccentColorLight2) !important;
+}

@@ -1,0 +1,267 @@
+{
+    "Configuration": [
+        {
+            "Name": "Compact View",
+            "ToolTip": "Remove sidebars and make the main content area wider at a lose of some functionality",
+            "Type": "CheckBox",
+            "Value": false
+        },
+        {
+            "Name": "Store URL Bar",
+            "ToolTip": "Display the current url bar in the Steam store",
+            "Type": "CheckBox",
+            "Value": true
+        },
+        {
+            "Name": "Library Sidebar",
+            "ToolTip": "Display library sidebar or display custom library interface",
+            "Type": "CheckBox",
+            "Value": true
+        },
+        {
+            "Items": [
+                "Normal",
+                "Left",
+                "Spanning (Best)",
+                "Right"
+            ],
+            "Name": "Search Box Alignment",
+            "ToolTip": "Align the search box position. LIBRARY SIDEBAR MUST BE DISABLED",
+            "Type": "ComboBox",
+            "Value": "Normal"
+        },
+        {
+            "Name": "Hide Whats New",
+            "ToolTip": "Display 'Whats New' section in the Steam library",
+            "Type": "CheckBox",
+            "Value": false
+        },
+        {
+            "Name": "Hide Add Shelf",
+            "ToolTip": "Remove the 'Add Shelf' button from the Steam library",
+            "Type": "CheckBox",
+            "Value": false
+        },
+        {
+            "Name": "Play Button",
+            "ToolTip": "Play button color affected by System Color Scheme",
+            "Type": "CheckBox",
+            "Value": false
+        },
+        {
+            "Items": [
+                "Left Spanning",
+                "Center"
+            ],
+            "Name": "Play Button Alignment",
+            "ToolTip": "Pick the alignment of the play button in the Steam library",
+            "Type": "ComboBox",
+            "Value": "Center"
+        }
+    ],
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "Statement": [
+                {
+                    "Equals": true,
+                    "If": "Compact View",
+                    "True": {
+                        "TargetCss": "src/styles/compactView.css",
+                        "TargetJs": "src/styles/compactView.js"
+                    }
+                },
+                {
+                    "Equals": false,
+                    "If": "Library Sidebar",
+                    "True": {
+                        "TargetCss": "src/styles/noSideBar.css"
+                    }
+                },
+                {
+                    "Equals": true,
+                    "If": "Hide Whats New",
+                    "True": {
+                        "TargetCss": "src/styles/config/hideWhatsNew.css"
+                    }
+                },
+                {
+                    "Equals": true,
+                    "If": "Hide Add Shelf",
+                    "True": {
+                        "TargetCss": "src/styles/config/hideNewShelf.css"
+                    }
+                },
+                {
+                    "Equals": true,
+                    "If": "Play Button",
+                    "True": {
+                        "TargetCss": "src/styles/config/playButton.css"
+                    }
+                },
+                {
+                    "Equals": "Left Spanning",
+                    "If": "Play Button Alignment",
+                    "True": {
+                        "TargetCss": "src/styles/config/playButtonAlignment.css"
+                    }
+                },
+                {
+                    "Combo": [
+                        {
+                            "Equals": "Right",
+                            "True": {
+                                "TargetCss": "src/styles/config/search/rightAlign.css"
+                            }
+                        },
+                        {
+                            "Equals": "Spanning (Best)",
+                            "True": {
+                                "TargetCss": "src/styles/config/search/span.css"
+                            }
+                        },
+                        {
+                            "Equals": "Left",
+                            "True": {
+                                "TargetCss": "src/styles/config/search/leftAlign.css"
+                            }
+                        }
+                    ],
+                    "If": "Search Box Alignment"
+                },
+                {
+                    "Equals": false,
+                    "If": "Store URL Bar",
+                    "True": {
+                        "TargetCss": "src/styles/config/noUrlBar.css"
+                    }
+                }
+            ],
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".ModalDialogPopup",
+            "TargetCss": "src/styles/modals/preload.css",
+            "TargetJs": "src/styles/modals/modalHandler.js"
+        },
+        {
+            "MatchRegexString": "^Menu$",
+            "TargetCss": "src/styles/menus/trayMenu.css"
+        },
+        {
+            "MatchRegexString": "^Friends Root Menu$",
+            "TargetCss": "src/styles/menus/friendsRootMenu.css"
+        },
+        {
+            "MatchRegexString": "^View Root Menu$",
+            "TargetCss": "src/styles/menus/viewRootMenu.css",
+            "TargetJs": "src/styles/menus/viewRootMenu.js"
+        },
+        {
+            "MatchRegexString": "^Steam Root Menu$",
+            "TargetCss": "src/styles/menus/steamRootMenu.css",
+            "TargetJs": "src/styles/menus/steamRootMenu.js"
+        },
+        {
+            "MatchRegexString": "^Games Root Menu$",
+            "TargetCss": "src/styles/menus/gamesRootMenu.css"
+        },
+        {
+            "MatchRegexString": "^Help Root Menu$",
+            "TargetCss": "src/styles/menus/helpRootMenu.css"
+        },
+        {
+            "MatchRegexString": "^Account Menu$",
+            "TargetCss": "src/styles/menus/accountMenu.css"
+        },
+        {
+            "MatchRegexString": ".*Supernav$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "^notificationtoasts_",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "^SteamBrowser_Find$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "^OverlayTab\\d+_Find$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": "^Steam Big Picture Mode$",
+            "TargetCss": "styles/bigpicture.custom.css",
+            "TargetJs": "bigpicture.custom.js"
+        },
+        {
+            "MatchRegexString": "^QuickAccess_",
+            "TargetCss": "styles/bigpicture.custom.css",
+            "TargetJs": "bigpicture.custom.js"
+        },
+        {
+            "MatchRegexString": "^MainMenu_",
+            "TargetCss": "styles/bigpicture.custom.css",
+            "TargetJs": "bigpicture.custom.js"
+        },
+        {
+            "MatchRegexString": ".friendsui-container",
+            "TargetCss": "src/styles/modals/friends/FriendsChat.css",
+            "TargetJs": "friends.custom.js"
+        },
+        {
+            "MatchRegexString": ".FullModalOverlay",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".*SP Overlay:.*",
+            "TargetCss": "src/styles/overlay/overlay.css"
+        },
+        {
+            "MatchRegexString": "^GameOverview$",
+            "TargetCss": "src/styles/overlay/gameOverview.css"
+        },
+        {
+            "MatchRegexString": "^GameNotes$",
+            "TargetCss": "src/styles/overlay/gameNotes.css"
+        },
+        {
+            "MatchRegexString": "^Store Supernav$",
+            "TargetCss": "src/styles/supernavs/storeNav.css"
+        },
+        {
+            "MatchRegexString": "^Library Supernav$",
+            "TargetCss": "src/styles/supernavs/libraryNav.css"
+        },
+        {
+            "MatchRegexString": "^Community Supernav$",
+            "TargetCss": "src/styles/supernavs/communityNav.css"
+        },
+        {
+            "MatchRegexString": "^Profile Supernav$",
+            "TargetCss": "src/styles/supernavs/profileNav.css"
+        },
+        {
+            "MatchRegexString": "^Sign in to Steam$",
+            "TargetCss": "src/styles/loginView.css"
+        },
+        {
+            "MatchRegexString": ".*.*",
+            "TargetCss": "src/styles/config/colors/dark.css"
+        }
+    ],
+    "Steam-WebKit": "src/styles/webkit/webkit.css",
+    "author": "ShadowMonster, Hexality",
+    "description": "A fluent, spacious design for Steam, inspired by the Microsft Fluent Design template launched with Windows 11",
+    "name": "Fluenty",
+    "native-name": "Fluenty - Copy",
+    "remote": false,
+    "version": "1.1.3"
+}

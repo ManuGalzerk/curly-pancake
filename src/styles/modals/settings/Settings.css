@@ -1,0 +1,198 @@
+/* Set the width of the sidebar */
+.RTicBCbDcEGkjsbmWzA8C {
+    min-width: 260px !important;
+}
+.title-area-children::after {
+    content: "Settings";
+    float: left;
+    padding-top: 16px;
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+.title-area-children::before {
+    content: "";
+    font-family: FluentSystemIcons;
+    float: left;
+    padding: 18px;
+    font-size: 14px
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ .U6HcKswXzjmWtFxbjxuz4 svg {
+    display: none !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ .U6HcKswXzjmWtFxbjxuz4::before{
+    border-radius: 4px !important;
+    text-align: center;
+    color: #fff;
+    font-size: 20px !important;
+    line-height: 18px !important;
+    margin-right: 15px !important;
+    font-family: FluentSystemIcons !important;
+}
+._EebF_xe4DGRZ9a0XkyDj.Panel {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100% !important;
+}
+.RTicBCbDcEGkjsbmWzA8C.PageListColumn.Panel {
+    height: unset !important;
+}
+
+._EebF_xe4DGRZ9a0XkyDj .settings_item:nth-child(1):not(.selected) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .settings_item:nth-child(1) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+
+._EebF_xe4DGRZ9a0XkyDj .settings_item:nth-child(2):not(.selected) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .settings_item:nth-child(2) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(1):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(1):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(1) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(2):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(2):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(2) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(3):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(3):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(3) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(4):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(4):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(4) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(6):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(6):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(6) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(7):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(7):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(7) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(8):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(8):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(8) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(9):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(9):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(9) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(10):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(10):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(10) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(11):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(11):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(11) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(12):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(12):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(12) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(14):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(14):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(14) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(15):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(15):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(15) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(16):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(16):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(16) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(17):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(17):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(17) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(18):not(.Myra7iGjzCdMPzitboVfh) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "" !important;
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(18):hover .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
+._EebF_xe4DGRZ9a0XkyDj .bkfjn0yka2uHNqEvWZaTJ:nth-child(18) .U6HcKswXzjmWtFxbjxuz4::before {
+    content: "";
+}
